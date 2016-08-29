@@ -229,13 +229,13 @@
 +tile.tconstruct.brownstone_stairs_rough.name=Escaliers en grès rouge rugueux
 +tile.tconstruct.brownstone_stairs_paver.name=Escaliers en trottoir de grès rouge 
 +tile.tconstruct.brownstone_stairs_brick.name=Escaliers en briques de grès rouge
-+tile.tconstruct.brownstone_stairs_brick_cracked.name=Escaliers en briques de grès rouge craquelé
++tile.tconstruct.brownstone_stairs_brick_cracked.name=Escaliers en briques de grès rouge craquelées
 +tile.tconstruct.brownstone_stairs_brick_fancy.name=Escaliers en briques de grès rouge de qualité supérieure
 +tile.tconstruct.brownstone_stairs_brick_square.name=Escaliers en briques de grès rouge à motifs carrés
 +tile.tconstruct.brownstone_stairs_brick_triangle.name=Escaliers en briques de grès rouge à motifs triangulaires
 +tile.tconstruct.brownstone_stairs_brick_small.name=Escaliers en petites briques de grès rouge
-+tile.tconstruct.brownstone_stairs_road.name=Escaliers en rue de grès rouge
-+tile.tconstruct.brownstone_stairs_tile.name=Escaliers en carreau de grès rouge
++tile.tconstruct.brownstone_stairs_road.name=Escaliers pavés de rue en grès rouge
++tile.tconstruct.brownstone_stairs_tile.name=Escaliers en carreaux de grès rouge
 +tile.tconstruct.brownstone_stairs_creeper.name=Escaliers de grès rouge à motifs de visage de Creeper
 +
 +################
@@ -243,24 +243,24 @@
 +################
 +
 +# General Items
-+item.tconstruct.book.name=Matériaux et Vous
-+item.tconstruct.book.tooltip=Chaque Tinkeur doit ce livre\npar Skyla
++item.tconstruct.book.name=Les Matériaux et Vous
++item.tconstruct.book.tooltip=Chaque Tinkeur se doit d'avoir ce livre\npar Skyla
 +
 +item.tconstruct.edible.bacon.name=Bacon
 +item.tconstruct.edible.slimeball_blue.name=Boule de slime bleu
 +item.tconstruct.edible.slimeball_purple.name=Boule de slime violet
 +item.tconstruct.edible.slimeball_blood.name=Boule de slime de sang
 +item.tconstruct.edible.slimeball_magma.name=Boule de slime de magma
-+item.tconstruct.edible.jerky_beef.name=Boeuf séchée
-+item.tconstruct.edible.jerky_chicken.name=Poulet séchée
-+item.tconstruct.edible.jerky_pork.name=Bacon séchée
-+item.tconstruct.edible.jerky_mutton.name=Mouton séchée
-+item.tconstruct.edible.jerky_rabbit.name=Lapin séchée
-+item.tconstruct.edible.jerky_fish.name=Poisson séchée
-+item.tconstruct.edible.jerky_salmon.name=Saumon séchée
-+item.tconstruct.edible.jerky_clownfish.name=Poisson-clown séchée
-+item.tconstruct.edible.jerky_pufferfish.name=Tétraodon séchée
-+item.tconstruct.edible.jerky_monster.name=Monstre séchée
++item.tconstruct.edible.jerky_beef.name=Boeuf séché
++item.tconstruct.edible.jerky_chicken.name=Poulet séché
++item.tconstruct.edible.jerky_pork.name=Bacon séché
++item.tconstruct.edible.jerky_mutton.name=Mouton séché
++item.tconstruct.edible.jerky_rabbit.name=Lapin séché
++item.tconstruct.edible.jerky_fish.name=Poisson séché
++item.tconstruct.edible.jerky_salmon.name=Saumon séché
++item.tconstruct.edible.jerky_clownfish.name=Poisson-clown séché
++item.tconstruct.edible.jerky_pufferfish.name=Tétraodon séché
++item.tconstruct.edible.jerky_monster.name=Monstre séché
 +item.tconstruct.edible.slimedrop_green.name=Gouette de slime vert coagulé
 +item.tconstruct.edible.slimedrop_blue.name=Gouette de slime bleu coagulé
 +item.tconstruct.edible.slimedrop_purple.name=Gouette de slime violet coagulé
@@ -270,17 +270,17 @@
 +item.tconstruct.materials.seared_brick.name=Brique sombre
 +item.tconstruct.materials.mud_brick.name=Brique de boue
 +item.tconstruct.materials.mud_brick.tooltip=Parpaing pour petit et grand.
-+item.tconstruct.materials.dried_brick.name=Brique sec
++item.tconstruct.materials.dried_brick.name=Brique séchée
 +item.tconstruct.materials.slimecrystal_green.name=Cristal de slime vert
-+item.tconstruct.materials.slimecrystal_green.tooltip=C'est utilise pour les outils.
++item.tconstruct.materials.slimecrystal_green.tooltip=Utilisé pour les outils.
 +item.tconstruct.materials.slimecrystal_blue.name=Cristal de slime bleu
 +item.tconstruct.materials.slimecrystal_blue.tooltip=item.tconstruct.materials.slimecrystal_green.tooltip
 +item.tconstruct.materials.slimecrystal_magma.name=Cristal de slime de magma
 +item.tconstruct.materials.slimecrystal_magma.tooltip=item.tconstruct.materials.slimecrystal_green.tooltip
 +item.tconstruct.materials.expander_w.name=Extenseur (horizontal)
-+item.tconstruct.materials.expander_w.tooltip=Ne manquez pas jour des jambes!
++item.tconstruct.materials.expander_w.tooltip=Ne manquez pas le jour des jambes!
 +item.tconstruct.materials.expander_h.name=Extenseur (vertical)
-+item.tconstruct.materials.expander_h.tooltip=Faites-tu soulever encore?
++item.tconstruct.materials.expander_h.tooltip=Te fais-tu seulement soulever ?
 +item.tconstruct.materials.reinforcement.name=Renforcement
 +item.tconstruct.materials.reinforcement.tooltip=Modificateur renforcé
 +item.tconstruct.materials.silky_cloth.name=Tissu soyeux
@@ -289,19 +289,19 @@
 +item.tconstruct.materials.necrotic_bone.name=Os nécrotique
 +item.tconstruct.materials.necrotic_bone.tooltip=Modificateur nécrotique
 +item.tconstruct.materials.moss.name=Balle de mousse
-+item.tconstruct.materials.moss.tooltip=Right click a Bookshelf with this\nto convert it into Mending Moss.\n§oConsumes 10 Levels
++item.tconstruct.materials.moss.tooltip=Faites un clic droit sur une bibliothèque avec ceci\npour la transformer en Mousse de raccommodage.\n§oConsomme 10 niveaux
 +item.tconstruct.materials.mending_moss.name=Mousse de raccommodage
 +item.tconstruct.materials.mending_moss.tooltip=Modificateur de mousse de raccommodage
 +item.tconstruct.materials.creative_modifier.name=Modificateur créatif
-+item.tconstruct.materials.creative_modifier.tooltip=C'additionne un modificaeur supplémentaire.
++item.tconstruct.materials.creative_modifier.tooltip=Ajoute un modificateur.
 +
 +item.tconstruct.ingots.cobalt.name=Lingot de cobalt
 +item.tconstruct.ingots.ardite.name=Lingot d'ardite
 +item.tconstruct.ingots.manyullyn.name=Lingot de manyullyn
 +item.tconstruct.ingots.knightslime.name=Lingot de knightslime
-+item.tconstruct.ingots.knightslime.tooltip=C'est gluante mais métallique... aussi caillouteux? Intéressant!
++item.tconstruct.ingots.knightslime.tooltip=Gluante et métallique tout en étant une pierre ? Fascinant!
 +item.tconstruct.ingots.pigiron.name=Lingot de fonte
-+item.tconstruct.ingots.pigiron.tooltip=Grouin grouin car pig-iron en anglais !
++item.tconstruct.ingots.pigiron.tooltip=Grouin grouin (car "pig-iron" en anglais) !
 +item.tconstruct.ingots.alubrass.name=Lingot de laiton d'aluminium
 +
 +item.tconstruct.nuggets.cobalt.name=Pépite de cobalt
