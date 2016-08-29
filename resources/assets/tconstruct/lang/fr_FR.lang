@@ -378,7 +378,7 @@
 +
 +# Material specific tools and toolparts
 +# item.tconstruct.<tool>.<material>
-+# item.tconstruct.pickaxe.wood=Wooden Pickaxe
++# item.tconstruct.pickaxe.wood=Pioche en bois
 +
 +# Gadgets
 +item.tconstruct.slime_boots.name=Bottes de Slime
@@ -579,10 +579,10 @@
 +modifier.fractured.name=Fracturé
 +modifier.fractured.desc=§oCa fait mal!§r\nLes dommages de l'outil sont augmentés.
 +modifier.hellish.name=Infernal
-+modifier.hellish.desc=§oD'enfer!§r\nFait des dommages supplémentaire aux créatures Non-Nether.
++modifier.hellish.desc=§oD'enfer!§r\nFait des dommages supplémentaires aux créatures Non-Nether.
 +modifier.hellish.extra=Vs Non-Nether: +%s
 +modifier.holy.name=Saint
-+modifier.holy.desc=§oRadieux!§r\nFait des dommages supplémentaire aux morts-vivants.
++modifier.holy.desc=§oRadieux!§r\nFait des dommages supplémentaires aux morts-vivants.
 +modifier.holy.extra=modifier.smite.extra
 +modifier.insatiable.name=Insatiable
 +modifier.insatiable.desc=§oDévorez!§r\nVous infligez de plus en plus de dégâts pendant le combat, mais en consommant de plus en plus de durabilité.
@@ -685,37 +685,37 @@
 +modifier.sharpness.name3=Beaucoup plus tranchant
 +modifier.sharpness.name4=Plus que beaucoup plus tranchant
 +modifier.sharpness.name5=Hyper tranchant
-+modifier.sharpness.desc=§oOuch!§r\nSi aiguisé, ça fait mal rien qu'en regardant.
-+modifier.shulking.name=Shulking
-+modifier.shulking.desc=§oUp up and away!§r\nHitting foes causes them to float away.
-+modifier.shulking.extra=Float Duration: %ss
-+modifier.silktouch.name=Silktouch
-+modifier.silktouch.desc=§oSmooth as silk!§r\nMined blocks drop themselves instead of the usual items.
++modifier.sharpness.desc=§oOuch!§r\nSi aiguisé qu'on a mal rien qu'en regardant.
++modifier.shulking.name=Projetant
++modifier.shulking.desc=§oHaut haut et loin!§r\nToucher les ennemis les faits s'envoler au loin.
++modifier.shulking.extra=Durée de flottement: %ss
++modifier.silktouch.name=Touché de soie
++modifier.silktouch.desc=§odoux comme la soir!§r\nLes blocs minés sont récupérés tels quels au lieu des objets habituels.
 +modifier.smite.name=Châtiment
-+modifier.smite.desc=§oFor Justice!§r\nDeal massive damage to undead.
-+modifier.smite.extra=Vs Undead: +%s
-+modifier.soulbound.name=Soulbound
-+modifier.soulbound.desc=§oA merry couple!§r\nYou love your tool. Not even death can part you.
++modifier.smite.desc=§oPour la Justice!§r\nFait des dommages supplémentaires aux morts-vivants.
++modifier.smite.extra=Vs morts-vivants: +%s
++modifier.soulbound.name=Lien sprirituel
++modifier.soulbound.desc=§oUn joyeux couple!§r\nVous aimez votre outil. Même la mort ne peut pas vous séparer.
 +
 +#################
 +#   Tool Info   #
 +#################
-+item.tconstruct.pickaxe.desc=The Pickaxe is a precise mining tool. It is effective on stone and ores.\nIt breaks blocks, OK?
-+item.tconstruct.shovel.desc=The Shovel digs up dirt. It is effective on dirt, sand, gravel and snow.\nJust don't dig your own grave!
-+item.tconstruct.hatchet.desc=The Hatchet chops up wood and makes short work of leaves. It also makes for a passable weapon.\nChop chop!
-+item.tconstruct.mattock.desc=The Cutter Mattock is a versatile farming tool. It is effective on wood, dirt, and plants. It also packs quite a punch.\nRight Click: Hoe ground
-+item.tconstruct.broadsword.desc=The Broadsword is a universal weapon. Blocking cuts damage in half.\nAlso good against cobwebs!
-+item.tconstruct.longsword.desc=The Longsword is an offensive weapon. It is often used for charging into battle at full speed.\nRight Click: Lunge
-+item.tconstruct.rapier.desc=The Rapier is a special weapon that relies on quick strikes to defeat foes.\nRight Click: Backpedal
-+item.tconstruct.frypan.desc=The Frying Pan is a heavy weapon with knockback to create some distance. It also goes BOING!\nRight Click: Heavy Blow
-+item.tconstruct.battlesign.desc=The Battlesign is the ultimate defensive weapon. An advance in weapon technology worthy of Zombie Pigmen everywhere.\nBlocking reduces damage even more and reflects projectiles.
-+item.tconstruct.hammer.desc=The Hammer is a broad mining tool. It harvests blocks in a wide range.\nAlso effective against undead.
-+item.tconstruct.lumberaxe.desc=The Lumber Axe is a broad chopping tool. It can fell entire trees in one swoop or gather wood in a wide range.\nTimber!
-+item.tconstruct.excavator.desc=The Excavator is a broad digging tool. It digs up large areas of soil and snow in a wide range.\nTerraforming!
-+item.tconstruct.cleaver.desc=The Cleaver is a heavy offensive weapon. It has powerful strikes, but is difficult to wield.\nCleavers benefit from high damage.\nSlow, cannot block!
-+item.tconstruct.battleaxe.desc=The Battleaxe is a heavy offensive weapon, bringing the berserker out. It is capable of bringing down small trees and can send foes flying.\nRight Click: Berserk
-+item.tconstruct.scythe.desc=The Scythe is a broad reaping tool. It is effective on plants and harvests flora and fauna in a wide range.\nBringing death to both crops and your enemies.
-+item.tconstruct.shuriken.desc=The Shuriken is a fast, short ranged throwing weapon. It has high quantities but low damage.\nCan be thrown from the off-hand.
++item.tconstruct.pickaxe.desc=La Piche est un outil de minage précis. Elle est efficace sur la pierre et les minerais.\nElle brise les blocs, OK?
++item.tconstruct.shovel.desc=La Pelle creuse la terre. Elle est efficace sur la terre, le sable, le gravier et la neige.\nFaites juste attention à ne pas creuser votre tombe!
++item.tconstruct.hatchet.desc=La Hachette coupe le bois et  les feuilles en moins de deux. Elle fait également une arme passable.\nChop chop!
++item.tconstruct.mattock.desc=La Bêche-binette-hache est un outil d'agriculture polyvalent. Elle est efficace sur le bois, la terre et les plantes. Elle a également un peu de punch.\nClic-droit: bine le sol
++item.tconstruct.broadsword.desc=L'Épée large est une arme universelle. Bloquer divise les dégâts par deux.\nfonctionne aussi contre les toiles d'araignées!
++item.tconstruct.longsword.desc=L'Épée longue est une arme offensive. Elle est souvent utilisée pour charger à pleine vitesse dans la bataille.\nClic-droit: Charger
++item.tconstruct.rapier.desc=La Rapièr est une arme speciale comptant sur des coups rapide pour vaincre les ennemis.\nClic-droit : Faire marche arrière
++item.tconstruct.frypan.desc=La Poêle est une arme lourde avec un effet de recul pour garder de la distance. Elle fait également BOING!\nClic-droit : Gros coup
++item.tconstruct.battlesign.desc=La Pancarte de guerre est l'ultime arme defensive. Una avancée dans la technologie des arme qui mériterait des Minis Zombis partout.\nBloquer reduit encore plus les dégâts et renvoie les projectiles.
++item.tconstruct.hammer.desc=Le Marteau est un large outil de minage. Il récolte les blocs sur une large zone.\nEgalement efficace contre les morts-vivants.
++item.tconstruct.lumberaxe.desc=La Hache lourde est un large outil de coupe. Elle peut faire tomber un arbre entier en un coup ou récolter le bois sur une large zone.\nBois!
++item.tconstruct.excavator.desc=L'Excavateur est un large outil pour creuser. Il creuse une large zone de sol et de neige.\nTerraformation!
++item.tconstruct.cleaver.desc=Le Couperet est une arme lourde offensive. Il donne de puissants coups, mais est difficile à manier.\nLe Couperet fait des dégâts élevés.\nDoucement, inblocable!
++item.tconstruct.battleaxe.desc=La Hache de guerre est une arme lourde offensive éveillant le fou furieux. Elle peut venir à bout de petits arbres et envoyer valser les ennemis.\nClic-droit : Fureur
++item.tconstruct.scythe.desc=La Faux est un large outil de récolte. Elle est efficace sur les plantes and récolte la faune et la flore sur une large zone.\nApporte la mort à la fois aux cultures et aux ennemis.
++item.tconstruct.shuriken.desc=Le Shuriken est une  arme de lancé rapide à courte portée. Il est en grand nombre, mais fait de faibles dégâts.\nPeut être lancé depuis la deuxième main.
 +
 +################
 +#   Tooltips   #
