@@ -542,7 +542,7 @@
 +#   Traits   #
 +##############
 +
-+# Les traits sont également des modificateurs, ils utilisent le même préfixz, ils n'ont donc pas besoin d'être référencés en double.
++# Les traits sont également des modificateurs, ils utilisent le même préfixe, ils n'ont donc pas besoin d'être référencés en double.
 +modifier.alien.name=Extraterrestre
 +modifier.alien.desc=§oLes statistiques semblent incorrectes...§r\n..comme si elles changeaient! Peut-être que le temps nous le dira ?
 +modifier.aquadynamic.name=Hydrodynamique
@@ -723,17 +723,17 @@
 +tooltip.tool.modifiers=Modificateur
 +tooltip.tool.broken=Cassé
 +tooltip.tool.empty=Vide
-+tooltip.tool.holdShift=Hold §e§oShift§r§7 for Stats
-+tooltip.tool.holdCtrl=Hold §e§bCtrl§r§7 for more
++tooltip.tool.holdShift=Maintenir §e§oShift§r§7 pour voir les caractéristiques
++tooltip.tool.holdCtrl=Maintenir §e§bCtrl§r§7 pour plus d'informations
 +
-+tooltip.part.material_added_by=Material added by %s
-+tooltip.part.missing_material=Missing material: %s
-+tooltip.part.missing_stats=Material is missing the required stats:\n%s
-+tooltip.part.missing_info=Part has no data
++tooltip.part.material_added_by=Materiau ajouté par %s
++tooltip.part.missing_material=Materiau manquant: %s
++tooltip.part.missing_stats=Le materiau ne remplit pas le pré-requis:\n%s
++tooltip.part.missing_info=Information manquante
 +
-+tooltip.pattern.cost=Material Cost: %d
++tooltip.pattern.cost=Coût en materiau: %d
 +
-+tooltip.chest.has_items=Contains items
++tooltip.chest.has_items=Contient des objets
 +
 +tooltip.tank.fluid=%s
 +tooltip.tank.amount=%d mb
@@ -751,8 +751,8 @@
 +ui.mininglevel.cobalt=Cobalt
 +
 +# Death messages
-+death.attack.smeltery=%s tried to create molten player
-+death.attack.splinter=%s caught a splinter. Must've been massive
++death.attack.smeltery=%s a essayé de créer un personnage fondu
++death.attack.splinter=%s a reçu une écharde. elle devait être énorme
 +
 +######################
 +# GUI Error messages #
@@ -761,108 +761,108 @@
 +gui.error=ERREUR
 +gui.warning=ALERTE
 +# GUI Errors from the different Tinker Tables
-+gui.error.invalid_pattern=Pattern does not contain a valid tool part!
-+gui.error.useless_tool_part=This part can not be used to craft any tool!\nEither the material %s is missing some information or no tool uses a(n) %s in its crafting.
-+gui.error.wrong_material_part=One or multiple items have an unsupported material for this tool.
-+gui.error.not_enough_durability=Not enough durability to replace parts!\n%d more durability required.
++gui.error.invalid_pattern=Le pochoir ne contient pas une pièce valide!
++gui.error.useless_tool_part=Cette pièce ne peut pas être utilisée pour fabriquer un outil!\nOu alors il manque des informations au matériau %s ou aucun outil n'utilise un(une) %s dans sa recette.
++gui.error.wrong_material_part=Une ou plusieurs pièces sont dans un matériau non supporté pour cet outil.
++gui.error.not_enough_durability=Manque de durabilité pour remplacer la pièce!\n%d à besoin de plus de durabilité.
 +# GUI Errors from modifiers
-+gui.error.not_enough_modifiers=Not enough Modifiers. (%d needed)
-+gui.error.single_modifier=%s can only be applied once.
-+gui.error.max_level_modifier=Maximum Level for %s already reached.
-+gui.error.no_modifier_for_item=No modifier found for %s.
-+gui.error.incompatible_modifiers=Modifiers %s and %s cannot be applied together
-+gui.error.incompatible_trait=Modifier %s can not be used together with trait %s
-+gui.error.incompatible_enchantments=Modifier %s cannot be combined with enchantment %s
++gui.error.not_enough_modifiers=Pas assez de Modificateurs. (%d nécessaire(s))
++gui.error.single_modifier=%s ne peut êttre appliqué qu'une fois.
++gui.error.max_level_modifier=Le niveau maximum pour %s est déjà atteint.
++gui.error.no_modifier_for_item=Aucun modificateur trouvé pour %s.
++gui.error.incompatible_modifiers=Les modificateurs %s et %s ne peuvent pas être ajoutés ensemble
++gui.error.incompatible_trait=Le modificateur %s ne peut pas être utiliser avec le trait %s
++gui.error.incompatible_enchantments=Le modificateur %s ne peut pas être combiné avec l'enchantment %s
 +
 +################
 +#     GUIs     #
 +################
 +
 +# General things used in multiple GUIs
-+gui.general.hover=Hover over the entries for more info
++gui.general.hover=Survolez les  paragraphes pour plus d'info
 +
 +# Creative Tabs
-+itemGroup.TinkerGeneral=Objets général du Tinker
-+itemGroup.TinkerTools=Outils du Tinker
-+itemGroup.TinkerToolParts=Pièces d'outil général du Tinker
-+itemGroup.TinkerSmeltery=Fondu du Tinker
-+itemGroup.TinkerWorld=Monde du Tinker
-+itemGroup.TinkerGadgets=Gadgets du Tinker
++itemGroup.TinkerGeneral=Objets général de Tinker
++itemGroup.TinkerTools=Outils de Tinker
++itemGroup.TinkerToolParts=Pièces d'outil de Tinker
++itemGroup.TinkerSmeltery=Fonderie de Tinker
++itemGroup.TinkerWorld=Monde de Tinker
++itemGroup.TinkerGadgets=Gadgets de Tinker
 +
 +# Crafting Station
-+gui.craftingstation.name=Station de réalisant
++gui.craftingstation.name=Table d'artisanat
 +
 +# Stencil Table
-+gui.stenciltable.name=Stencil Table
++gui.stenciltable.name=Table à pochoirs
 +
 +# PartBuilder
-+gui.partbuilder.name=Part Builder
-+gui.partcrafter.name=Part Crafter
-+gui.partbuilder.info=Here you can craft tool parts to fulfill your tinkering fantasies.\n\nTo craft a part simply put its pattern into the left slot. The two remaining slots hold the material you want to craft your part out of.
++gui.partbuilder.name=Table de construction
++gui.partcrafter.name=Table de craft
++gui.partbuilder.info=Ici vous pouvez créer les parties des outils pour exaucer toutes vos Tinker-Fantasies.\n\nPour fabriquer une pièce, placez son pochoir dans l'emplacement de gauche. Les deux emplacements restants contiendront le(s) matériau(x) que vous voulez utilisez pour la fabrication.
 +gui.partbuilder.material_value=Valeur du matériau: %s %s
 +
 +# Tool Station/Forge
-+gui.toolstation.name=Tool Station
-+gui.toolforge.name=Tool Forge
-+gui.toolstation.repair=Repair & Modify
++gui.toolstation.name=Etabli en bois
++gui.toolforge.name=Etabli en métal
++gui.toolstation.repair=Réparer & Modifier
 +gui.toolstation.traits=Traits
-+gui.toolstation.components=Components
-+gui.toolstation.info=The main way to repair or change your tools. Place a tool and a material on the left to get started.
-+gui.toolstation.noTraits=None :[
++gui.toolstation.components=Composants
++gui.toolstation.info=Le principal moyen pour réparer or changer vos outils. Placez un outil et un materiau dans la partie gauche pour commencer.
++gui.toolstation.noTraits=Aucun :[
 +
 +# Pattern Chest
-+gui.patternchest.name=Pattern Chest
-+gui.castchest.name=Cast Chest
++gui.patternchest.name=Coffre à pochoirs
++gui.castchest.name=Coffre à moules
 +
 +# Part Chest
-+gui.partchest.name=Part Chest
++gui.partchest.name=Coffre à pièces détachées
 +
 +# Smeltery
-+gui.smeltery.name=Smeltery
-+gui.smeltery.progress.no_recipe=Item can't be molten
-+gui.smeltery.progress.no_heat=Not enough heat to melt this item
-+gui.smeltery.progress.no_space=Not enough free space in the smeltery
-+gui.smeltery.fuel=Fuel
-+gui.smeltery.fuel.empty=No fuel found
-+gui.smeltery.fuel.heat=Temperature: %d
-+gui.smeltery.capacity=Capacity
-+gui.smeltery.capacity_available=Free
++gui.smeltery.name=Fonderie
++gui.smeltery.progress.no_recipe=L'objet ne peut pas être fondu
++gui.smeltery.progress.no_heat=Pas assez de chaleur pour faire fondre cet objet
++gui.smeltery.progress.no_space=Pas assez de place dans la fonderie
++gui.smeltery.fuel=Combustible
++gui.smeltery.fuel.empty=Pas de combustible trouvé
++gui.smeltery.fuel.heat=Température: %d
++gui.smeltery.capacity=Capacité
++gui.smeltery.capacity_available=Libre
 +gui.smeltery.liquid.kilobucket=kb
 +gui.smeltery.liquid.bucket=b
 +gui.smeltery.liquid.millibucket=mb
-+gui.smeltery.liquid.ingot=Ingot
-+gui.smeltery.liquid.nugget=Nugget
-+gui.smeltery.liquid.block=Block
-+gui.smeltery.liquid.gem=Gem
++gui.smeltery.liquid.ingot=Lingot
++gui.smeltery.liquid.nugget=Pépite
++gui.smeltery.liquid.block=Bloc
++gui.smeltery.liquid.gem=Gemme
 +
 +# Seared Furnace
-+gui.searedfurnace.name=Seared Furnace
-+gui.searedfurnace.progress.complete=Item is finished smelting
-+gui.searedfurnace.progress.no_recipe=Item can't be cooked
-+gui.searedfurnace.progress.no_space=Resulting stack is too large for the slot
++gui.searedfurnace.name=Four sombre
++gui.searedfurnace.progress.complete=L'objet a fini de fondre
++gui.searedfurnace.progress.no_recipe=L'objet ne peut pas être cuisiné
++gui.searedfurnace.progress.no_space=Les résultat est trop grand pour tenir dans l'emplacement
 +
 +# These GUIs don't appear in game, but the titles can be viewed using the crafting station
-+gui.itemrack.name=Item Rack
-+gui.dryingrack.name=Drying Rack
++gui.itemrack.name=Etagère à objets
++gui.dryingrack.name=Étagère de séchage
 +
 +# JEI Plugin
-+gui.jei.smelting.title=Smelting
-+gui.jei.alloy.title=Alloying
++gui.jei.smelting.title=En fusion
++gui.jei.alloy.title=Alliage en cours
 +gui.jei.casting.title=Fonte
-+gui.jei.casting.consume=Consumes cast!
-+gui.jei.drying.title=Drying
++gui.jei.casting.consume=Pochoir consommé !
++gui.jei.drying.title=Séchage
 +
 +# WAILA Plugin
-+gui.waila.tank.fluid=Liquid: %s
-+gui.waila.tank.amount=Amount: %d / %d mb
-+gui.waila.tank.empty=Empty
-+gui.waila.casting.progress=Progress: %s
-+gui.waila.casting.recipe=Recipe: %s
++gui.waila.tank.fluid=Liquide: %s
++gui.waila.tank.amount=Montant: %d / %d mb
++gui.waila.tank.empty=Vide
++gui.waila.casting.progress=Progrès: %s
++gui.waila.casting.recipe=Recette: %s
 +
-+option.tconstruct.tank=Tank Liquid
-+option.tconstruct.casting=Casting Recipe
-+option.tconstruct.progress=Recipe Progress
++option.tconstruct.tank=Réservoir
++option.tconstruct.casting=Moulage
++option.tconstruct.progress=Progression de la recette
 +
 +# Config
-+config.synced.restart=Your configuration has been updated to match the server. Restart Minecraft.
-+config.synced.ok=Configuration synced with server.
++config.synced.restart=votre configuration a été mise à jour pour correspondre au serveur. Relancez Minecraft.
++config.synced.ok=Configuration synchrone avec le serveur.
