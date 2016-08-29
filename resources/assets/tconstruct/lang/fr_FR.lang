@@ -542,34 +542,34 @@
 +#   Traits   #
 +##############
 +
-+# traits are also modifiers, they use the same prefix so they don't have to be localized twice
++# Les traits sont également des modificateurs, ils utilisent le même préfixz, ils n'ont donc pas besoin d'être référencés en double.
 +modifier.alien.name=Extraterrestre
-+modifier.alien.desc=§oLes statistiques n'est pas correct...§r\n..mais je ne résous pas! Temps montre peut-être?
-+modifier.aquadynamic.name=Dynamique-aqua
-+modifier.aquadynamic.desc=§oC'est ici mouillé!§r\nC'est libre dans l'eau.
-+modifier.aridiculous.name=Aridiculous
-+modifier.aridiculous.desc=§oS'intensifier!§r\nC'est libre dans les atmosphères de la chaleur.
-+modifier.autosmelt.name=Fonde-automatiquement
-+modifier.autosmelt.desc=§oUn fourneau sur un outil!§r\nBlocs obtenu est fond.
++modifier.alien.desc=§oLes statistiques semblent incorrectes...§r\n..comme si elles changeaient! Peut-être que le temps nous le dira ?
++modifier.aquadynamic.name=Hydrodynamique
++modifier.aquadynamic.desc=§oCa devient humide ici !§r\nL'outil n'est pas affecté par l'eau et aime le soirées pluvieuses.
++modifier.aridiculous.name=Aridicule
++modifier.aridiculous.desc=§oSe tourne vers la chaleur!§r\nL'outil marche mieux dans les environnements chauds.
++modifier.autosmelt.name=Auto-fone
++modifier.autosmelt.desc=§oUn fourneau dans un outil!§r\nLes blocs sont récoltés fondus.
 +modifier.baconlicious.name=Baconlicieux
-+modifier.baconlicious.desc=§oBACON!§r\nDes chose de heurte donne le bacon.
++modifier.baconlicious.desc=§oBACON!§r\nTaper les choses donne parfois du bacon.
 +modifier.cheap.name=Bon marché
-+modifier.cheap.desc=§oVous en aurez pour votre argent!§r\nC'augmente durabilité de gagne quand vous réparez l'outil.
++modifier.cheap.desc=§oVous en aurez pour votre argent!§r\nAugmente la durabilité gagnée en réparant l'outil.
 +modifier.cheapskate.name=Radin
-+modifier.cheapskate.desc=§oInsolent!§r\nLe pierre est mauvais. Votre outil est moins durable.
++modifier.cheapskate.desc=§oInsolent!§r\nLe pierre c'est mauvais. Votre outil a moins de durabilité.
 +modifier.coldblooded.name=Sans pitié
-+modifier.coldblooded.desc=§oSauvage!§r\nC'augmente des dommages pour des objectifs de la santé plein.
++modifier.coldblooded.desc=§oSauvage!§r\nFait plus des dégâts sur les cibles à santé pleine.
 +modifier.crude.name=Brut
-+modifier.crude.desc=§oL'armure est pour les lâches!§r\nLes dommages prime contres les chose sans renfort.
-+modifier.crude.extra=Vs sans renfort: +%s
-+modifier.crumbling.name=Croulant
-+modifier.crumbling.desc=§oS'émietter et le grondement et le grondement.§r\nL'outil détruit rapidement les blocs mou que ne requiert pas un outil.
++modifier.crude.desc=§oLes armures c'est pour les lâches!§r\nFait plus des dégâts contres les cibles sans armure.
++modifier.crude.extra=Vs sans armure: +%s
++modifier.crumbling.name=S'émiettant
++modifier.crumbling.desc=§oS'émietter et le grondement et le grondement.§r\nL'outil détruit plus rapidement les blocs mous qui ne requierent pas d'outil.
 +modifier.dense.name=Dense
-+modifier.dense.desc=§oPlus... dur.§r\nVotre outil plus de dernier avec moins de rapidement.
++modifier.dense.desc=§oPlus... dur.§r\nVotre outil dur plus longtemps lorsqu'il a moins de durabilité.
 +modifier.duritos.name=Duritae
-+modifier.duritos.desc=§oCe n'est pas savoureux.§r\nVotre outil tient ...la plupart du temps.
++modifier.duritos.desc=§oN'a pas aussi bon gout qu'il en a l'ai.§r\nVotre outil dur plus longtemps ...la plupart du temps.
 +modifier.ecological.name=Écologique
-+modifier.ecological.desc=§oLa force vert!§r\nC'est renouvelable, donc c'est régénératif!
++modifier.ecological.desc=§oForce verte!§r\nLes ressources renouvelables sont si bonnes qu'elles se régénérent elles-mêmes!
 +modifier.enderference.name=Enderférence
 +modifier.enderference.desc=§oAnti-téléportation!§r\nEndermen ne téléporte pas temporairement.
 +modifier.established.name=Bien établi
