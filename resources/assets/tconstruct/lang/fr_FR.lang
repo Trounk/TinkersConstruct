@@ -134,11 +134,11 @@ tile.tconstruct.seared_slab.brick.name=Dalle en briques sombres
 tile.tconstruct.seared_slab.brick_cracked.name=Dalle en briques sombres craquelées
 tile.tconstruct.seared_slab.brick_fancy.name=Dalle en briques sombres de qualité supérieure
 tile.tconstruct.seared_slab.brick_square.name=Dalle en briques sombres à motifs carrés
+tile.tconstruct.seared_slab.road.name=Pavé de rue sombre
+tile.tconstruct.seared_slab2.creeper.name=Dalle en briques sombres à motifs de visage de Creeper
 tile.tconstruct.seared_slab2.brick_triangle.name=Dalle en briques sombres à motifs triangulaires
 tile.tconstruct.seared_slab2.brick_small.name=Dalle en petites briques sombres
-tile.tconstruct.seared_slab.road.name=Pavé de rue sombre
 tile.tconstruct.seared_slab2.tile.name=Dalle à carreaux sombre
-tile.tconstruct.seared_slab2.creeper.name=Dalle en briques sombres à motifs de visage de Creeper
 
 tile.tconstruct.seared_stairs_stone.name=Escaliers en roche sombre
 tile.tconstruct.seared_stairs_cobble.name=Escaliers en pierre sombre
@@ -168,7 +168,9 @@ tile.tconstruct.seared_tank.window.name=Fenêtre sombre
 tile.tconstruct.seared_tank.tooltip=Coeur de la fonderie.\nRetient les liquides même s'il est cassé.
 tile.tconstruct.seared_glass.glass.name=Verre sombre
 tile.tconstruct.seared_glass.glass.tooltip=Elément de la fonderie. Utilisable pour la décoration.\nNe retient pas les liquides.
+
 tile.tconstruct.seared_furnace_controller.name=Contrôleur du four
+tile.tconstruct.tinker_tank_controller.name=Contrôleur du réservoir
 
 tile.tconstruct.stone_torch.name=Torche de pierre
 tile.tconstruct.stone_ladder.name=Échelle de pierre
@@ -182,7 +184,6 @@ tile.tconstruct.rack.item.name=Étagère à objets
 tile.tconstruct.rack.item.tooltip=Uniquement pour décoration.
 tile.tconstruct.rack.drying.name=Étagère de séchage
 tile.tconstruct.rack.drying.tooltip=Permet de sécher les objets
-
 
 tile.tconstruct.slime_channel.green.name=Green Slime Channel
 tile.tconstruct.slime_channel.blue.name=Blue Slime Channel
