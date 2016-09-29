@@ -24,8 +24,9 @@ tile.tconstruct.soil.graveyard.name=Graveyard Soil
 tile.tconstruct.soil.graveyard.tooltip=Heals undead
 tile.tconstruct.soil.consecrated.name=Consecrated Soil
 tile.tconstruct.soil.consecrated.tooltip=Hurts undead
-tile.tconstruct.soil.mudbrick.name=Mud Bricks
-tile.tconstruct.soil_slab.mudbrick.name=Mud Bricks Slab
+
+tile.tconstruct.deco_ground.mudbrick.name=Mud Bricks
+tile.tconstruct.deco_ground_slab.mudbrick.name=Mud Bricks Slab
 tile.tconstruct.mudbrick_stairs.name=Mud Bricks Stairs
 
 tile.tconstruct.ore.cobalt.name=Cobalt Ore
@@ -45,6 +46,24 @@ tile.tconstruct.firewood_slab.lavawood.name=Lavawood Slab
 tile.tconstruct.firewood_slab.firewood.name=Firewood Slab
 tile.tconstruct.lavawood_stairs.name=Lavawood Stairs
 tile.tconstruct.firewood_stairs.name=Firewood Stairs
+
+tile.tconstruct.clear_glass.name=Clear Glass
+tile.tconstruct.clear_stained_glass.white.name=Clear White Stained Glass
+tile.tconstruct.clear_stained_glass.orange.name=Clear Orange Stained Glass
+tile.tconstruct.clear_stained_glass.magenta.name=Clear Magenta Stained Glass
+tile.tconstruct.clear_stained_glass.light_blue.name=Clear Light Blue Stained Glass
+tile.tconstruct.clear_stained_glass.yellow.name=Clear Yellow Stained Glass
+tile.tconstruct.clear_stained_glass.lime.name=Clear Light Green Stained Glass
+tile.tconstruct.clear_stained_glass.pink.name=Clear Pink Stained Glass
+tile.tconstruct.clear_stained_glass.gray.name=Clear Gray Stained Glass
+tile.tconstruct.clear_stained_glass.silver.name=Clear Light Gray Stained Glass
+tile.tconstruct.clear_stained_glass.cyan.name=Clear Cyan Stained Glass
+tile.tconstruct.clear_stained_glass.purple.name=Clear Purple Stained Glass
+tile.tconstruct.clear_stained_glass.blue.name=Clear Blue Stained Glass
+tile.tconstruct.clear_stained_glass.brown.name=Clear Brown Stained Glass
+tile.tconstruct.clear_stained_glass.green.name=Clear Green Stained Glass
+tile.tconstruct.clear_stained_glass.red.name=Clear Red Stained Glass
+tile.tconstruct.clear_stained_glass.black.name=Clear Black Stained Glass
 
 tile.tconstruct.slime.green.name=Green Slime Block
 tile.tconstruct.slime.blue.name=Blue Slime Block
@@ -101,9 +120,12 @@ tile.tconstruct.seared.brick.name=Seared Bricks
 tile.tconstruct.seared.brick_cracked.name=Cracked Seared Bricks
 tile.tconstruct.seared.brick_fancy.name=Fancy Seared Bricks
 tile.tconstruct.seared.brick_square.name=Square Seared Bricks
+tile.tconstruct.seared.brick_triangle.name=Triangle Seared Bricks
+tile.tconstruct.seared.brick_small.name=Small Seared Bricks
 tile.tconstruct.seared.road.name=Seared Road
+tile.tconstruct.seared.tile.name=Seared Tiles
 tile.tconstruct.seared.creeper.name=Seared Creeperface
-tile.tconstruct.seared.tooltip=Part of the Smeltery. Safe for Decoration.
+tile.tconstruct.seared.tooltip=Part of the Smeltery. Safe for decoration.
 
 tile.tconstruct.seared_slab.stone.name=Seared Stone Slab
 tile.tconstruct.seared_slab.cobble.name=Seared Cobblestone Slab
@@ -114,6 +136,9 @@ tile.tconstruct.seared_slab.brick_fancy.name=Fancy Seared Bricks Slab
 tile.tconstruct.seared_slab.brick_square.name=Square Seared Bricks Slab
 tile.tconstruct.seared_slab.road.name=Seared Road Slab
 tile.tconstruct.seared_slab2.creeper.name=Seared Creeperface Slab
+tile.tconstruct.seared_slab2.brick_triangle.name=Triangle Seared Bricks Slab
+tile.tconstruct.seared_slab2.brick_small.name=Small Seared Bricks Slab
+tile.tconstruct.seared_slab2.tile.name=Seared Tile Slab
 
 tile.tconstruct.seared_stairs_stone.name=Seared Stone Stairs
 tile.tconstruct.seared_stairs_cobble.name=Seared Cobblestone Stairs
@@ -122,7 +147,10 @@ tile.tconstruct.seared_stairs_brick.name=Seared Bricks Stairs
 tile.tconstruct.seared_stairs_brick_cracked.name=Cracked Seared Bricks Stairs
 tile.tconstruct.seared_stairs_brick_fancy.name=Fancy Seared Bricks Stairs
 tile.tconstruct.seared_stairs_brick_square.name=Square Seared Bricks Stairs
+tile.tconstruct.seared_stairs_brick_triangle.name=Triangle Seared Bricks Stairs
+tile.tconstruct.seared_stairs_brick_small.name=Small Seared Bricks Stairs
 tile.tconstruct.seared_stairs_road.name=Seared Road Stairs
+tile.tconstruct.seared_stairs_tile.name=Seared Tile Stairs
 tile.tconstruct.seared_stairs_creeper.name=Seared Creeperface Stairs
 
 tile.tconstruct.smeltery_controller.name=Smeltery Controller
@@ -138,10 +166,17 @@ tile.tconstruct.seared_tank.tank.name=Seared Tank
 tile.tconstruct.seared_tank.gauge.name=Seared Gauge
 tile.tconstruct.seared_tank.window.name=Seared Window
 tile.tconstruct.seared_tank.tooltip=Heart of the Smeltery\nRetains liquid when broken.
+tile.tconstruct.seared_glass.glass.name=Seared Glass
+tile.tconstruct.seared_glass.glass.tooltip=Part of the Smeltery. Safe for decoration.\nCannot store liquids.
+
+tile.tconstruct.seared_furnace_controller.name=Seared Furnace Controller
+tile.tconstruct.tinker_tank_controller.name=Tinker Tank Controller
 
 tile.tconstruct.stone_torch.name=Stone Torch
 tile.tconstruct.stone_ladder.name=Stone Ladder
 tile.tconstruct.wood_rail.name=Wooden Rail
+tile.tconstruct.wood_rail_trapdoor.name=Wooden Rail with a Trapdoor
+tile.tconstruct.wood_rail_trapdoor.tooltip=Minecarts with a Hopper can\ninsert into the block below
 tile.tconstruct.punji.name=Punji Sticks
 tile.tconstruct.punji.tooltip=Pointy! Also sticks to walls.
 tile.tconstruct.glow.name=Glow
@@ -150,6 +185,13 @@ tile.tconstruct.rack.item.tooltip=For decoration purpose only
 tile.tconstruct.rack.drying.name=Drying Rack
 tile.tconstruct.rack.drying.tooltip=Used to dry items
 
+tile.tconstruct.slime_channel.green.name=Green Slime Channel
+tile.tconstruct.slime_channel.blue.name=Blue Slime Channel
+tile.tconstruct.slime_channel.purple.name=Purple Slime Channel
+tile.tconstruct.slime_channel.magma.name=Magma Slime Channel
+tile.tconstruct.slime_channel.blood.name=Blood Channel
+tile.tconstruct.slime_channel.tooltip=Flows like water, feels like gelatin
+
 tile.tconstruct.dried_clay.clay.name=Dried Clay
 tile.tconstruct.dried_clay.brick.name=Dried Bricks
 tile.tconstruct.dried_clay_slab.clay.name=Dried Clay Slab
@@ -157,6 +199,45 @@ tile.tconstruct.dried_clay_slab.brick.name=Dried Bricks Slab
 tile.tconstruct.dried_clay_stairs.name=Dried Clay Stairs
 tile.tconstruct.dried_brick_stairs.name=Dried Bricks Stairs
 
+tile.tconstruct.brownstone.smooth.name=Smooth Brownstone
+tile.tconstruct.brownstone.rough.name=Rough Brownstone
+tile.tconstruct.brownstone.paver.name=Brownstone Paver
+tile.tconstruct.brownstone.brick.name=Brownstone Bricks
+tile.tconstruct.brownstone.brick_cracked.name=Cracked Brownstone Bricks
+tile.tconstruct.brownstone.brick_fancy.name=Fancy Brownstone Bricks
+tile.tconstruct.brownstone.brick_square.name=Square Brownstone Bricks
+tile.tconstruct.brownstone.brick_triangle.name=Triangle Brownstone Bricks
+tile.tconstruct.brownstone.brick_small.name=Small Brownstone Bricks
+tile.tconstruct.brownstone.road.name=Brownstone Road
+tile.tconstruct.brownstone.tile.name=Brownstone Tiles
+tile.tconstruct.brownstone.creeper.name=Brownstone Creeperface
+tile.tconstruct.brownstone.tooltip=You move a bit faster on it
+
+tile.tconstruct.brownstone_slab.smooth.name=Smooth Brownstone Slab
+tile.tconstruct.brownstone_slab.rough.name=Rough Brownstone Slab
+tile.tconstruct.brownstone_slab.paver.name=Brownstone Paver Slab
+tile.tconstruct.brownstone_slab.brick.name=Brownstone Bricks Slab
+tile.tconstruct.brownstone_slab.brick_cracked.name=Cracked Brownstone Bricks Slab
+tile.tconstruct.brownstone_slab.brick_fancy.name=Fancy Brownstone Bricks Slab
+tile.tconstruct.brownstone_slab.brick_square.name=Square Brownstone Bricks Slab
+tile.tconstruct.brownstone_slab.road.name=Brownstone Road Slab
+tile.tconstruct.brownstone_slab2.creeper.name=Brownstone Creeperface Slab
+tile.tconstruct.brownstone_slab2.brick_triangle.name=Triangle Brownstone Bricks Slab
+tile.tconstruct.brownstone_slab2.brick_small.name=Small Brownstone Bricks Slab
+tile.tconstruct.brownstone_slab2.tile.name=Brownstone Tile Slab
+
+tile.tconstruct.brownstone_stairs_smooth.name=Smooth Brownstone Stairs
+tile.tconstruct.brownstone_stairs_rough.name=Rough Brownstone Stairs
+tile.tconstruct.brownstone_stairs_paver.name=Brownstone Paver Stairs
+tile.tconstruct.brownstone_stairs_brick.name=Brownstone Bricks Stairs
+tile.tconstruct.brownstone_stairs_brick_cracked.name=Cracked Brownstone Bricks Stairs
+tile.tconstruct.brownstone_stairs_brick_fancy.name=Fancy Brownstone Bricks Stairs
+tile.tconstruct.brownstone_stairs_brick_square.name=Square Brownstone Bricks Stairs
+tile.tconstruct.brownstone_stairs_brick_triangle.name=Triangle Brownstone Bricks Stairs
+tile.tconstruct.brownstone_stairs_brick_small.name=Small Brownstone Bricks Stairs
+tile.tconstruct.brownstone_stairs_road.name=Brownstone Road Stairs
+tile.tconstruct.brownstone_stairs_tile.name=Brownstone Tile Stairs
+tile.tconstruct.brownstone_stairs_creeper.name=Brownstone Creeperface Stairs
 
 ################
 #    Items     #
@@ -208,6 +289,10 @@ item.tconstruct.materials.silky_jewel.name=Silky Jewel
 item.tconstruct.materials.silky_jewel.tooltip=Silktouch Modifier
 item.tconstruct.materials.necrotic_bone.name=Necrotic Bone
 item.tconstruct.materials.necrotic_bone.tooltip=Necrotic Modifier
+item.tconstruct.materials.moss.name=Ball of moss
+item.tconstruct.materials.moss.tooltip=Right click a Bookshelf with this\nto convert it into Mending Moss.\n§oConsumes 10 Levels
+item.tconstruct.materials.mending_moss.name=Mending Moss
+item.tconstruct.materials.mending_moss.tooltip=Mending Moss Modifier
 item.tconstruct.materials.creative_modifier.name=Creative Modifier
 item.tconstruct.materials.creative_modifier.tooltip=Adds an additional modifier
 
@@ -239,7 +324,7 @@ item.tconstruct.cast_custom.plate.name=Plate Cast
 item.tconstruct.cast_custom.gear.name=Gear Cast
 
 item.tconstruct.sharpening_kit.name=Sharpening Kit
-item.tconstruct.sharpening_kit.tooltip=Combine with a flint\nUpgrades your tool to the materials mining level.
+item.tconstruct.sharpening_kit.tooltip=Combine with a flint\nUpgrades your tool to the material's mining level.
 
 item.forge.bucketFilled.blood=Bucket o' Blood
 
@@ -248,6 +333,14 @@ item.tconstruct.pickaxe.name=Pickaxe
 item.tconstruct.shovel.name=Shovel
 item.tconstruct.hatchet.name=Hatchet
 item.tconstruct.mattock.name=Mattock
+
+item.tconstruct.hammer.name=Hammer
+item.tconstruct.excavator.name=Excavator
+item.tconstruct.lumberaxe.name=Lumberaxe
+item.tconstruct.scythe.name=Scythe
+
+# Melee Weapons
+
 item.tconstruct.frypan.name=Frypan
 item.tconstruct.battlesign.name=Battlesign
 item.tconstruct.dagger.name=Dagger
@@ -256,12 +349,14 @@ item.tconstruct.longsword.name=Longsword
 item.tconstruct.rapier.name=Rapier
 item.tconstruct.cutlass.name=Cutlass
 
-item.tconstruct.hammer.name=Hammer
-item.tconstruct.excavator.name=Excavator
-item.tconstruct.lumberaxe.name=Lumberaxe
 item.tconstruct.cleaver.name=Cleaver
 item.tconstruct.battleaxe.name=Battleaxe
-item.tconstruct.scythe.name=Scythe
+
+# Ranged Weapons & Ammo
+
+item.tconstruct.shortbow.name=Shortbow
+
+item.tconstruct.arrow.name=Arrow
 
 item.tconstruct.shuriken.name=Shuriken
 
@@ -282,7 +377,7 @@ item.tconstruct.cross_guard.name=Cross Guard
 item.tconstruct.hand_guard.name=Hand Guard
 item.tconstruct.full_guard.name=Full Guard
 
-#Large Tool Parts
+# Large Tool Parts
 item.tconstruct.hammer_head.name=Hammer Head
 item.tconstruct.excavator_head.name=Excavator Head
 item.tconstruct.broad_axe_head.name=Broad Axe Head
@@ -292,13 +387,26 @@ item.tconstruct.tough_tool_rod.name=Tough Tool Rod
 item.tconstruct.scythe_head.name=Scythe Head
 item.tconstruct.large_sword_blade.name=Large Sword Blade
 
+# Bow & Arrow Parts
+
+item.tconstruct.bow_limb.name=Bowlimb
+item.tconstruct.bow_string.name=Bowstring
+
+item.tconstruct.arrow_head.name=Arrow Head
+item.tconstruct.arrow_shaft.name=Arrow Shaft
+item.tconstruct.fletching.name=Fletching
+
 # Material specific tools and toolparts
 # item.tconstruct.<tool>.<material>
 # item.tconstruct.pickaxe.wood=Wooden Pickaxe
 
 # Gadgets
 item.tconstruct.slime_boots.name=Slime Boots
+item.tconstruct.slime_boots.tooltip=Makes you bounce when landing
 item.tconstruct.slimesling.name=Slimesling
+item.tconstruct.slimesling.tooltip=Charge up, aim low, get flinging!\nUse Slime Boots if you value your life!
+item.tconstruct.piggybackpack.name=Piggybackpack
+item.tconstruct.piggybackpack.tooltip=Rightclick mobs to pick them up
 item.tconstruct.stone_stick.name=Stone Rod
 
 item.tconstruct.fancy_frame.jewel.name=Fancy Item Frame
@@ -307,11 +415,36 @@ item.tconstruct.fancy_frame.cobalt.name=Cobalt Item Frame
 item.tconstruct.fancy_frame.ardite.name=Ardite Item Frame
 item.tconstruct.fancy_frame.manyullyn.name=Manyullyn Item Frame
 item.tconstruct.fancy_frame.gold.name=Golden Item Frame
+item.tconstruct.fancy_frame.clear.name=Clear Item Frame
 
 item.tconstruct.throwball.glow.name=Glowball
 item.tconstruct.throwball.glow.tooltip=Not suited for consumption.
 item.tconstruct.throwball.efln.name=EFLN
 item.tconstruct.throwball.efln.tooltip=Explodes! Save for mining
+
+###################
+# Mom's Spaghetti #
+###################
+
+item.tconstruct.moms_spaghetti.name=Mom's Spaghetti
+item.tconstruct.moms_spaghetti.desc=Delicious!
+item.tconstruct.moms_spaghetti.tooltip1=§oI guess they're all right... but it's just not the same.\nThey defenitively need some sauce, but it has to be red.
+item.tconstruct.moms_spaghetti.tooltip2=§oSomething is missing.. could use some meat. Mama always used ALL the meat.\nI should get at least three different meat types.
+item.tconstruct.moms_spaghetti.tooltip3=§oJust like mama used to make them.
+stat.spaghetti.uses.name=Noms
+stat.spaghetti.nourishment.name=Nourishment
+stat.spaghetti.saturation.name=Saturation
+modifier.spaghetti_sauce.name=with sauce
+modifier.spaghetti_sauce.desc=§oWith beets by mom§r\nIncreases the saturation
+modifier.spaghetti_meat.name=with meat
+modifier.spaghetti_meat.desc=§oAll the meat!§r\nIncreases the nourishment value
+
+item.tconstruct.spaghetti.hard.name=Impossibly hard wheat sticks
+item.tconstruct.spaghetti.hard.tooltip=Completely inedible like that.\nThey need to be softened up, even your sweaty palms aren't enough for that.\nThey should probably soak in some water for a while.
+item.tconstruct.spaghetti.soggy.name=Soggy noodles
+item.tconstruct.spaghetti.soggy.tooltip=Now they're all wet, even your spaghetti arms can bend them now.\nLet's hang them up and get them dry.
+item.tconstruct.spaghetti.cold.name=Cold dried noodles
+item.tconstruct.spaghetti.cold.tooltip=Well, that's better, but they still taste gross.\nWarming them up should make them edible.\nThey might even be good enough to get you off your weak knees.
 
 #################
 #   Entities    #
@@ -335,6 +468,7 @@ fluid.tconstruct.ardite.name=Molten Ardite
 fluid.tconstruct.manyullyn.name=Molten Manyullyn
 fluid.tconstruct.knightslime.name=Molten Knightslime
 fluid.tconstruct.emerald.name=Molten Emerald
+fluid.tconstruct.glass.name=Molten Glass
 fluid.tconstruct.blood.name=Blood
 fluid.tconstruct.milk.name=Milk
 fluid.tconstruct.blueslime.name=Liquid Blue Slime
@@ -356,7 +490,7 @@ fluid.tconstruct.alubrass.name=Molten Aluminum Brass
 #    Potions    #
 #################
 
-potion.slimebounce=Slimebounce
+potion.carry=Piggybacking
 
 #################
 #   Materials   #
@@ -395,6 +529,23 @@ material.silver.name=Silver
 material.electrum.name=Electrum
 material.steel.name=Steel
 
+material.string.name=String
+material.vine.name=Vines
+material.slimevine_blue.name=Slimevine
+material.slimevine_orange.name=material.slimevine_blue.name
+material.slimevine_purple.name=material.slimevine_blue.name
+
+material.blaze.name=Blazerod
+material.reed.name=Reeds
+material.ice.name=Ice
+material.endrod.name=Endrod
+
+material.feather.name=Feather
+material.leaf.name=Leaf
+material.slimeleaf_blue.name=Slimeleaf
+material.slimeleaf_orange.name=material.slimeleaf_blue.name
+material.slimeleaf_purple.name=material.slimeleaf_blue.name
+
 #############
 #   Stats   #
 #############
@@ -406,7 +557,7 @@ stat.head.miningspeed.desc=How fast a tool with a tool head of this material can
 stat.head.harvestlevel.name=Mining Level
 stat.head.harvestlevel.desc=What range of blocks a tool with a tool head of this material can mine.
 stat.head.attack.name=Attack
-stat.head.attack.desc=Base value for attack calculations.\nThe end result depens on the tool itself and the other components used.
+stat.head.attack.desc=Base value for attack calculations.\nThe end result depends on the tool itself and the other components used.
 
 stat.handle.name=Handle
 stat.handle.modifier.name=Modifier
@@ -416,10 +567,32 @@ stat.handle.durability.desc=How well the material can be held.\nTool durability 
 
 stat.extra.name=Extra
 stat.extra.durability.name=stat.head.durability.name
-stat.extra.durability.desc=How much durability this part contributes when used as an accessoire.
+stat.extra.durability.desc=How much durability this part contributes when used as an accessory.
 
 stat.mattock.axelevel.name=Axe Level
 stat.mattock.shovellevel.name=Shovel Level
+
+stat.bow.name=Bow
+stat.bow.drawspeed.name=Drawspeed
+stat.bow.drawspeed.desc=How fast you can draw the bow.
+stat.bow.range.name=Range Multiplier
+stat.bow.range.desc=How far the projectile can be propelled.
+
+stat.bowstring.name=Bowstring
+stat.bowstring.modifier.name=Modifier
+stat.bowstring.modifier.desc=Tool durability will be multiplied by this.
+
+stat.shaft.name=Arrow Shaft
+stat.shaft.modifier.name=Modifier
+stat.shaft.modifier.desc=Each arrow needs a suiting core. It determines how well it lasts.\nThe total ammo count of the tool will be multiplied by this.
+stat.shaft.ammo.name=Bonus-Ammo
+stat.shaft.ammo.desc=How many arrows you can get out of it.\nThis much flat ammo will be added.
+
+stat.fletching.name=Fletching
+stat.fletching.accuracy.name=Accuracy
+stat.fletching.accuracy.desc=How stable the flight path will be using this fletching.\nAffects the overall accuracy of the projectile.
+stat.fletching.modifier.name=Modifier
+stat.fletching.modifier.desc=How many arrows you can craft with this.\nProjectile ammo will be multiplied by this.
 
 stat.projectile.ammo.name=Ammo
 
@@ -429,7 +602,7 @@ stat.projectile.ammo.name=Ammo
 
 # traits are also modifiers, they use the same prefix so they don't have to be localized twice
 modifier.alien.name=Alien
-modifier.alien.desc=§oSomething is off...§r\n..but I can't tell what! Maybe time will tell.
+modifier.alien.desc=§oThe stats feel off...§r\n..as if they're changing! Maybe time will tell?
 modifier.aquadynamic.name=Aquadynamic
 modifier.aquadynamic.desc=§oIt's getting wet in here!§r\nThe tool is unhindered by water and loves rainy evenings.
 modifier.aridiculous.name=Aridiculous
@@ -516,6 +689,17 @@ modifier.tasty.desc=§oOm Nom Nom§r\nSmells so good.. You'd rather eat your too
 modifier.writable.name=Writable
 modifier.writable.desc=§oIntellectual!§r\nMore words. More Modifiers. It's only logical!
 
+modifier.breakable.name=Breakable
+modifier.breakable.desc=§oThis side up!§r\nProjectiles have a 50% chance to break on impact.
+modifier.endspeed.name=Endspeed
+modifier.endspeed.desc=§oQuantum speed!§r\nProjectiles instantly travel to their destination.
+modifier.freezing.name=Freezing
+modifier.freezing.desc=§oWinter is Coming§r\nSuccessful hits slow your target more and more.
+modifier.hovering.name=Hovering
+modifier.hovering.desc=§oFree like the wind§r\nProjectiles move slower but don't mind gravity as much.
+modifier.splitting.name=Splitting
+modifier.splitting.desc=§oTwo for one!§r\nThe sudden acceleration of releasing an arrow might cause it to split into two.
+
 #################
 #   Modifiers   #
 #################
@@ -525,6 +709,9 @@ modifier.bane_of_arthopods.desc=§oAnti-Spider!§r\nDeal massive damage to spide
 modifier.bane_of_arthopods.extra=Vs Spiders: +%s
 modifier.beheading.name=Beheading
 modifier.beheading.desc=§oOff with his head!§r\nEach level adds a 10% chance to get the enemies head on kill.
+modifier.blasting.name=Blasting
+modifier.blasting.desc=§oKa-Boom!§r\nYou can break non-effective blocks like normal blocks, but they might get destroyed.
+modifier.blasting.extra=Blast Power: %s
 modifier.diamond.name=Diamond
 modifier.diamond.desc=§oShiny!§r\nIncreased durability!
 modifier.emerald.name=Emerald
@@ -535,6 +722,8 @@ modifier.fiery.extra=Fire Damage: +%s
 modifier.fiery.extra2=Burn Duration: %ss
 modifier.fortify.name=Fortified
 modifier.fortify.desc=§oHarder, better, faster, stronger!§r\nMining level increased to the same level as %s.
+modifier.glowing.name=Glowing
+modifier.glowing.desc=§oShine bright§r\nWhenever it gets too dark your tool sacrifices a part of itself to light up your way.
 modifier.harvestwidth.name=Width++
 modifier.harvestwidth.desc=§oExpand!§r\nIncreases the width of the area affected by your tool. The effect is tool specific.
 modifier.harvestheight.name=Height++
@@ -549,20 +738,26 @@ modifier.haste.extra=Bonus-Speed: +%s
 modifier.knockback.name=Knockback
 modifier.knockback.desc=§oHomerun!§r\nTeach things how to fly - the cool way.
 modifier.luck.name=Luck
-modifier.luck.name2=Luck
 modifier.luck.desc=§oShiny!§r\nYou're getting all the nice things. And a lot of them.
+modifier.mending_moss.name=Mending Moss
+modifier.mending_moss.desc=§oIt's alive!§r\nPicked up XP is stored in the tool. It will slowly use up the XP to regenerate durability.
+modifier.mending_moss.extra=Stored XP: %d
 modifier.necrotic.name=Necrotic
 modifier.necrotic.desc=§oI feel so Alive!!§r\nHitting enemies returns health to you depending on damage dealt.
 modifier.necrotic.extra=Lifesteal: +%s
 modifier.reinforced.name=Reinforced
 modifier.reinforced.unbreakable=Unbreakable
-modifier.reinforced.desc=§oSo strong!§r\nEach level adds a 15% chance to not use durability.
+modifier.reinforced.desc=§oSo strong!§r\nEach level adds a %s chance to not use durability.
+modifier.reinforced.extra=Reinforced: %s
 modifier.sharpness.name=Sharp
 modifier.sharpness.name2=Sharper
 modifier.sharpness.name3=Sharpest
 modifier.sharpness.name4=Sharpester
 modifier.sharpness.name5=Sharpestest
 modifier.sharpness.desc=§oOuch!§r\nSo sharp, it hurts to look at it.
+modifier.shulking.name=Shulking
+modifier.shulking.desc=§oUp up and away!§r\nHitting foes causes them to float away.
+modifier.shulking.extra=Float Duration: %ss
 modifier.silktouch.name=Silktouch
 modifier.silktouch.desc=§oSmooth as silk!§r\nMined blocks drop themselves instead of the usual items.
 modifier.smite.name=Smite
@@ -570,6 +765,8 @@ modifier.smite.desc=§oFor Justice!§r\nDeal massive damage to undead.
 modifier.smite.extra=Vs Undead: +%s
 modifier.soulbound.name=Soulbound
 modifier.soulbound.desc=§oA merry couple!§r\nYou love your tool. Not even death can part you.
+modifier.webbed.name=Webbed
+modifier.webbed.desc=§oYuck!§r\nEntangle your foes in cobwebs, slowing them.
 
 #################
 #   Tool Info   #
@@ -586,9 +783,9 @@ item.tconstruct.battlesign.desc=The Battlesign is the ultimate defensive weapon.
 item.tconstruct.hammer.desc=The Hammer is a broad mining tool. It harvests blocks in a wide range.\nAlso effective against undead.
 item.tconstruct.lumberaxe.desc=The Lumber Axe is a broad chopping tool. It can fell entire trees in one swoop or gather wood in a wide range.\nTimber!
 item.tconstruct.excavator.desc=The Excavator is a broad digging tool. It digs up large areas of soil and snow in a wide range.\nTerraforming!
-item.tconstruct.cleaver.desc=The Cleaver is a heavy offensive weapon. It has powerful strikes, but is difficult to wield.\nSlow, requires two hands!
+item.tconstruct.cleaver.desc=The Cleaver is a heavy offensive weapon. It has powerful strikes, but is difficult to wield.\nCleavers benefit from high damage.\nSlow, requires two hands!
 item.tconstruct.battleaxe.desc=The Battleaxe is a heavy offensive weapon, bringing the berserker out. It is capable of bringing down small trees and can send foes flying.\nRight Click: Berserk
-item.tconstruct.scythe.desc=The Scythe is a broad reaping tool. It is effective on plants and harvests flora and fauna in a wide range.\nBringing death to both crops and your enemies.
+item.tconstruct.scythe.desc=The Scythe is a broad reaping tool, mowing down plants and foes alike.\nHas an AOE Attack.\nRight Click: Harvest and replant crops
 item.tconstruct.shuriken.desc=The Shuriken is a fast, short ranged throwing weapon. It has high quantities but low damage.\nCan be thrown from the off-hand.
 
 ################
@@ -597,8 +794,8 @@ item.tconstruct.shuriken.desc=The Shuriken is a fast, short ranged throwing weap
 tooltip.tool.modifiers=Modifiers
 tooltip.tool.broken=Broken
 tooltip.tool.empty=Empty
-tooltip.tool.holdShift=Hold §e§oShift§r for Stats
-tooltip.tool.holdCtrl=Hold §e§bCtrl§r for more
+tooltip.tool.holdShift=Hold §e§oShift§r§7 for Stats
+tooltip.tool.holdCtrl=Hold §e§bCtrl§r§7 for more
 
 tooltip.part.material_added_by=Material added by %s
 tooltip.part.missing_material=Missing material: %s
@@ -645,6 +842,7 @@ gui.error.single_modifier=%s can only be applied once.
 gui.error.max_level_modifier=Maximum Level for %s already reached.
 gui.error.no_modifier_for_item=No modifier found for %s.
 gui.error.incompatible_modifiers=Modifiers %s and %s cannot be applied together
+gui.error.incompatible_trait=Modifier %s can not be used together with trait %s
 gui.error.incompatible_enchantments=Modifier %s cannot be combined with enchantment %s
 
 ################
@@ -672,6 +870,7 @@ gui.stenciltable.name=Stencil Table
 gui.partbuilder.name=Part Builder
 gui.partcrafter.name=Part Crafter
 gui.partbuilder.info=Here you can craft tool parts to fulfill your tinkering fantasies.\n\nTo craft a part simply put its pattern into the left slot. The two remaining slots hold the material you want to craft your part out of.
+gui.partbuilder.material_value=Material Value: %s %s
 
 # Tool Station/Forge
 gui.toolstation.name=Tool Station
@@ -697,8 +896,9 @@ gui.smeltery.progress.no_space=Not enough free space in the smeltery
 gui.smeltery.fuel=Fuel
 gui.smeltery.fuel.empty=No fuel found
 gui.smeltery.fuel.heat=Temperature: %d
-gui.smeltery.capacity=Capacity
-gui.smeltery.capacity_available=Free
+gui.smeltery.capacity=Capacity:
+gui.smeltery.capacity_available=Free:
+gui.smeltery.capacity_used=Used:
 gui.smeltery.liquid.kilobucket=kb
 gui.smeltery.liquid.bucket=b
 gui.smeltery.liquid.millibucket=mb
@@ -706,6 +906,15 @@ gui.smeltery.liquid.ingot=Ingot
 gui.smeltery.liquid.nugget=Nugget
 gui.smeltery.liquid.block=Block
 gui.smeltery.liquid.gem=Gem
+
+# Seared Furnace
+gui.searedfurnace.name=Seared Furnace
+gui.searedfurnace.progress.complete=Item is finished smelting
+gui.searedfurnace.progress.no_recipe=Item can't be cooked
+gui.searedfurnace.progress.no_space=Resulting stack is too large for the slot
+
+# Tinker Tank
+gui.tinkertank.name=Tinker Tank
 
 # These GUIs don't appear in game, but the titles can be viewed using the crafting station
 gui.itemrack.name=Item Rack
@@ -717,6 +926,18 @@ gui.jei.alloy.title=Alloying
 gui.jei.casting.title=Casting
 gui.jei.casting.consume=Consumes cast!
 gui.jei.drying.title=Drying
+
+# WAILA Plugin
+gui.waila.tank.fluid=Liquid: %s
+gui.waila.tank.amount=Amount: %d / %d mb
+gui.waila.tank.empty=Empty
+gui.waila.casting.progress=Progress: %s
+gui.waila.casting.recipe=Recipe: %s
+
+option.tconstruct.tank=Tank Liquid
+option.tconstruct.casting=Casting Recipe
+option.tconstruct.progress=Recipe Progress
+
 
 # Config
 config.synced.restart=Your configuration has been updated to match the server. Restart Minecraft.
